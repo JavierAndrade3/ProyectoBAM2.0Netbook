@@ -1,0 +1,36 @@
+body {
+    background-image: url("../img/fondo_huellas.png");
+    color: rgb(170, 132, 26);
+    margin: 100px 40px;
+}
+body section {
+    background-color: rgb(224, 164, 72);
+    color: #fff;    
+}
+
+
+header .nav_bar {
+    text-align: center;
+    background-color: rgb(80, 63, 38);
+    margin: 50px 0px;
+    border: double  10px;
+    border-radius: 20px;
+    border-color: rgb(198, 115, 61);
+}
+
+.nav_bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_bar ul li {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav_bar ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
